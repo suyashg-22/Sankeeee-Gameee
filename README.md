@@ -38,7 +38,7 @@ Add a screenshot of your game as screenshot.png in the repo directory.
 bash
 Copy
 Edit
-git clone https://github.com/your-username/snake-game.git
+git clone https://github.com/suyashg-22/Sankeeee-Gameee.git
 cd snake-game
 2. Run the Game
 Simply open index.html in your browser.
