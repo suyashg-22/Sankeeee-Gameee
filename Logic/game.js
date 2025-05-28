@@ -1,7 +1,7 @@
-const foodsound = new Audio("food.mp3");
-const gameoversound = new Audio("./gameover.mp3");
-const movesound = new Audio("./move.mp3");
-const musicsound = new Audio("./music.mp3");
+const foodsound = new Audio("../Songs/food.mp3");   
+const gameoversound = new Audio("../Songs/gameover.mp3");
+const movesound = new Audio("../Songs/move.mp3");
+const musicsound = new Audio("../Songs/music.mp3");
 
 let game = document.querySelector(".game");
 let board = document.querySelector(".board");
