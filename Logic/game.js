@@ -1,11 +1,11 @@
-const foodsound = new Audio("../Songs/food.mp3");   
-const gameoversound = new Audio("../Songs/gameover.mp3");
-const movesound = new Audio("../Songs/move.mp3");
-const musicsound = new Audio("../Songs/music.mp3");
+const foodsound = new Audio("../Music/food.mp3");   
+const gameoversound = new Audio("../Music/gameover.mp3");
+const movesound = new Audio("../Music/move.mp3");
+const musicsound = new Audio("../Music/music.mp3");
 
 let game = document.querySelector(".game");
 let board = document.querySelector(".board");
-let speed = 5;
+let speed = 10;
 let lastpasttime = 0;
 let snakearr = [{ x: 13, y: 15 }];
 let food = { x: 5, y: 5 };
